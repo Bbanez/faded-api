@@ -1,0 +1,75 @@
+{
+  "name": "@banez/faded-api",
+  "version": "1.0.0",
+  "description": "API for Faded game.",
+  "author": "Branislav Vajagic",
+  "license": "MIT",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node dist/src/main.js",
+    "dev": "nodemon -L -r tsconfig-paths/register src/main.ts",
+    "build:ts": "tsc --project tsconfig.json",
+    "build": "npm-tool --build",
+    "bundle": "npm-tool --bundle",
+    "link": "npm-tool --link",
+    "unlink": "npm-tool --unlink",
+    "publish": "npm-tool --publish",
+    "pack": "npm-tool --pack",
+    "lint": "eslint . --ext .ts"
+  },
+  "dependencies": {
+    "@banez/child_process": "^1.0.3",
+    "@banez/object-utility": "^1.0.0",
+    "@banez/search": "^1.0.1",
+    "@banez/string-utility": "^1.0.1",
+    "@becomes/mjml": "^1.0.0",
+    "@becomes/purple-cheetah": "^3.5.2",
+    "@becomes/purple-cheetah-mod-fsdb": "^1.4.0",
+    "@becomes/purple-cheetah-mod-jwt": "^1.1.0",
+    "@becomes/purple-cheetah-mod-mem-cache": "^1.1.1",
+    "@becomes/purple-cheetah-mod-mongodb": "^1.1.4",
+    "@becomes/purple-cheetah-mod-socket": "^1.1.0",
+    "@types/multer": "^1.4.5",
+    "bcrypt": "^5.0.1",
+    "cron": "^2.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^8.3.2",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "@banez/npm-tool": "^1.0.1",
+    "@types/bcrypt": "^5.0.0",
+    "@types/cron": "^2.0.0",
+    "@types/express": "^4.17.9",
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^15.6.2",
+    "@types/uuid": "^8.3.0",
+    "@types/yamljs": "^0.2.30",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "env-cmd": "^10.1.0",
+    "eslint": "^7.30.0",
+    "fs-extra": "^10.0.0",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.2.1",
+    "ts-node": "^10.8.0",
+    "tsconfig-paths": "^3.14.1",
+    "typescript": "^4.4.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bbanez/faded-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bbanez/faded-api/issues"
+  },
+  "homepage": "https://github.com/Bbanez/faded-api#readme",
+  "nodemonConfig": {
+    "watch": [
+      "src"
+    ],
+    "ext": "ts"
+  }
+}

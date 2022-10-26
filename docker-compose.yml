@@ -1,0 +1,27 @@
+version: '3.9'
+services:
+  proxy:
+    hostname: 'faded-proxy'
+    build:
+      context: './proxy'
+      dockerfile: Dockerfile
+    ports:
+      - '5000:5000'
+    logging:
+      driver: none
+  api:
+    hostname: 'faded-api'
+    depends_on:
+      - proxy
+    build:
+      context: '.'
+      dockerfile: Dockerfile.dev
+    ports:
+      - '1280:1280'
+    volumes:
+      - type: bind
+        source: ./src
+        target: /app/src
+      - type: bind
+        source: ./db
+        target: /app/db

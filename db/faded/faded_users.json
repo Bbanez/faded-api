@@ -1,0 +1,122 @@
+{
+  "635824ee455a01e0d836f5de": {
+    "_id": "635824ee455a01e0d836f5de",
+    "createdAt": 1666721006823,
+    "updatedAt": 1666804488457,
+    "email": "branislav.vaj@gmail.com",
+    "password": "$2b$10$EYkzG.ST4zHBOjRRXhPQhurmTp0H1.aZO3N7E.a4vuCwQCk/VtpUS",
+    "personal": {
+      "firstName": "Branislav",
+      "lastName": "Vajagic",
+      "avatarUri": ""
+    },
+    "refreshTokens": [
+      {
+        "expAt": 1669394627487,
+        "value": "Rp2XZWLHjNmDGjVavQstHTe8F3XIKFWdnIN4Tpxm4Da0HNXasbAh5u3sbecsvY+v+kOibVzlJhdUTFh5uSh+PQ=="
+      },
+      {
+        "expAt": 1669396488455,
+        "value": "0YFTtk0bsd+rc9MIDM6BcVmsEGYYm7eFxqUqpk7+xsvRA8CzDeL15HSIq6O9mvpp4FakJxhUnpsAX7znZwFudA=="
+      }
+    ],
+    "username": "Banez",
+    "verified": true,
+    "otp": "f8a6c80c653bca64f60f5580602d2f88214870a16cd6c1c19609997436af04d52c8ac19cad230bc7c339d410a6e231e9393635cc58fda882041761baa392f296",
+    "roles": [
+      {
+        "name": "USER",
+        "permissions": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "WRITE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "EXECUTE"
+          }
+        ]
+      }
+    ],
+    "blockedTo": 0,
+    "permBlock": false
+  },
+  "635961606687f3f7f41eaa4a": {
+    "_id": "635961606687f3f7f41eaa4a",
+    "createdAt": 1666802016588,
+    "updatedAt": 1666802037386,
+    "email": "asdf@asdf.com",
+    "password": "$2b$10$Lcema0lq.zBqud2qtUXE6OFef7Bnl9mBnoHqj8JIq/0j.HMkmsuTK",
+    "personal": {
+      "firstName": "asdf",
+      "lastName": "asdf",
+      "avatarUri": ""
+    },
+    "refreshTokens": [],
+    "username": "asdf",
+    "verified": true,
+    "otp": "779943513ba1fe188183f9c87a920d70bb589f79e79f48e3becb722dfed2c21477f8090a6d985e64efd13e258f72a268ef42a60e78615bac9ab343d51c1a182b",
+    "roles": [
+      {
+        "name": "USER",
+        "permissions": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "WRITE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "EXECUTE"
+          }
+        ]
+      }
+    ],
+    "blockedTo": 0,
+    "permBlock": false
+  },
+  "635962026687f3f7f41eaa4b": {
+    "_id": "635962026687f3f7f41eaa4b",
+    "createdAt": 1666802178418,
+    "updatedAt": 1666802178418,
+    "email": "asdfasdf@asdf.com",
+    "password": "$2b$10$Pt/DuZBPjJ72axbDRDYtBOUQxN2u8nuFJq5anlck9EwCdSXNBFRh.",
+    "personal": {
+      "firstName": "asdf",
+      "lastName": "asdf",
+      "avatarUri": ""
+    },
+    "refreshTokens": [],
+    "username": "asdfasdf",
+    "verified": false,
+    "otp": "9pmiksuoagzJyrRrrpWoweHIvtbk2RDb1RYmiF22f4HIVrMf7jV9NEDNhmnS9FQ1TV6dTWRL4R3//dsPZpi+sw==",
+    "roles": [
+      {
+        "name": "USER",
+        "permissions": [
+          {
+            "name": "READ"
+          },
+          {
+            "name": "WRITE"
+          },
+          {
+            "name": "DELETE"
+          },
+          {
+            "name": "EXECUTE"
+          }
+        ]
+      }
+    ],
+    "blockedTo": 0,
+    "permBlock": false
+  }
+}
